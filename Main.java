@@ -20,12 +20,12 @@ public class Main {
 
 
         HealthyBurger healthy = new HealthyBurger("Banana", 100);
+        healthy.addIngridient("Mayo",3);
+        healthy.addIngridient("Ketchup",2);
         healthy.addIngridient("Pepper",2);
-        healthy.addIngridient("Pepper",2);
-        healthy.addIngridient("Pepper",2);
-        healthy.addIngridient("Pepper",2);
-        healthy.addIngridient("Pepper",2);
-        healthy.addIngridient("Pepper",2);
+        healthy.addIngridient("Beacon",3);
+        healthy.addIngridient("Spinach",2);
+        healthy.addIngridient("Brie",3);
         healthy.buy();
 
     }
